@@ -208,7 +208,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case COPY:
     if (record->event.pressed) {
       SEND_STRING(SS_LCTRL("c"));
-      break
+      break;
     }
     case PASTE:
     if (record->event.pressed) {
