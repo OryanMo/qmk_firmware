@@ -1,7 +1,9 @@
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
-#define PREVENT_STUCK_MODIFIERS
 #include "config_common.h"
+
+#define DISABLE_SPACE_CADET_ROLLOVER
+#define PREVENT_STUCK_MODIFIERS
 
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PLANCK_SOUND)
